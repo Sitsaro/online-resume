@@ -1,0 +1,136 @@
+body {
+    font-family: Eb Garamond, arial;
+    text-align: center;
+    background-color: white;
+}
+
+/* Containers */
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+    background-color: #91afcb;
+}
+
+#testimonials h1 {
+    font-family: ubuntu, arial;
+    color: white;
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+#testimonials h6 {
+    font-size: 1.5rem;
+    color: rgb(212, 212, 212);
+}
+
+#testimonials p {
+    color: white;
+}
+
+.testimonial-image {
+    width: 80%;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    margin: 20px;
+}
+
+.view-button {
+    display: flex;
+    justify-content: center;
+    width: 20%;
+    margin: 0 auto 0;
+}
+
+.view-button .btn {
+    min-width: 200px;
+}
+
+/* Top Section */
+
+.work-space {
+    padding: 10% 0;
+}
+
+.flag-container {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 550%;
+    margin-top: -100px;
+    transition: 1s ease-in-out;
+}
+
+@media (max-width: 660px){
+    .flag-container {
+        gap: 200%;
+    }
+}
+
+/* Animated Section */
+
+#what-section {
+    background-color: rgb(255, 255, 255);
+}
+
+.slider {
+    position: relative;
+    margin: 0 auto;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    width: 77px;
+    height: 77px;
+    margin-top: 10%;
+}
+
+.image {
+    background: url(/images/vertical-slide.png);
+    width: 77px;
+    height: 77px;
+    border-radius: 60px;
+    animation-name: bubblinger-vert-down;
+    -webkit-animation-timing-function: cubic-bezier(1, 0, 0, 1);
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    animation-timing-function: cubic-bezier(0, 0.27, 1, 0.99)
+}
+
+@keyframes bubblinger-vert-down {
+    0% {background-position: 0 0;}
+    5% {background-position: 0 77px;}
+    35% {background-position: 0 77px;}
+    40% {background-position: 0 154px;}
+    68% {background-position: 0 154px;}
+    73% {background-position: 0 231px;}
+    100% {background-position: 0 231px;}
+}
+
+.welcome {
+    padding: 3% 15% 15%;
+}
+
+.header, .sub-header {
+    color: #45b29a;
+    font-weight: bold;
+}
+
+.description {
+    font-size: 1.4rem;
+    padding: 2% 14% 0;
+}
+
+/* Get in Touch Section */
+
+#bottom-section {
+    margin: 12% 0 3%;
+}
+
+#bottom-section .description {
+    padding: 0 10% 0;
+}

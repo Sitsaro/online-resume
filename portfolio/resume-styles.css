@@ -1,0 +1,207 @@
+/* General  */
+
+hr {
+    display: inline-block;
+    width: 63%;
+    margin: 0;
+}
+
+h5 {
+    font-weight: bold;
+    font-size: 1.1rem;
+    padding: 5px 0 3px;
+}
+
+h6 {
+    font-weight: none;
+
+}
+
+p {
+    font-family: open sans;
+    font-size: 16px;
+    line-height: 1.64;
+}
+
+.container-fluid {
+    padding: 3% 19%;
+    text-align: left;
+}
+
+@media (min-width:1070px) and (max-width:1200px){
+    .container-fluid {
+        padding: 3% 15%;
+        text-align: left;
+    }
+}
+
+@media (min-width:992px) and (max-width:1070px){
+    .container-fluid {
+        padding: 3% 11%;
+        text-align: left;
+    }
+}
+
+@media (min-width:630px) and (max-width:991px){
+    .container-fluid {
+        padding: 3% 7%;
+        text-align: left;
+    }
+}
+
+@media (max-width:629px){
+    .container-fluid {
+        padding: 3% 2%;
+        text-align: left;
+    }
+}
+
+
+
+/* Background Section */
+
+.back-img {
+    position: fixed;
+    object-fit: contain;
+}
+
+.scroll-container {
+    position: relative;
+}
+/* Header Section */
+
+.section-header {
+    color: #22A39F;
+    font-family: Open Sans, Montserrat;
+    font-size: 3.5rem;
+    padding: 5% 0 0;
+}
+
+.sub-header {
+    color: #22A39F;
+    font-family: EB Garamond, Montserrat;
+    font-size: 2rem;
+    padding: 0 0 2%;
+    text-align: left;
+}
+
+/* Introduction */
+
+#name {
+    background-color:#45b2a9;
+    height: 700px;
+    text-align: center;
+    opacity: 0.75;
+}
+
+.top-section {
+    color: white;
+    padding: 15% 15% 0;
+}
+
+.profile-name, .profile-description {
+    margin-bottom: 0;
+    font-family: EB Garamond, Open Sans, Montserrat;
+    padding-bottom: 10px;
+}
+
+.profile-name {
+    font-size: 3.5rem;
+}
+
+.profile-description {
+    font-size: 2rem;
+    border-top-style: solid;
+    border-top-width: 1px;
+}
+
+/* Profile Section */
+
+#profile {
+    background-color: white;
+    text-align: center;
+    font-size: 30px;
+}
+
+.profile-picture {
+    border-radius: 50%;
+}
+
+.picture-box {
+    padding-top: 8%;
+
+}
+.details-box {
+    text-align: left;
+    padding: 0 0 4% 3%;
+}
+
+/* Experience Section */
+
+#experience {
+    background-color:#F3EFE0;
+    text-align: center;
+}
+
+/* Abilities Section */
+
+#abilities {
+    background-color: white;
+    text-align: center;
+}
+.no-bullets {
+    list-style: none;
+    padding-bottom: 5%;
+}
+
+.skill-score {
+    float: right;
+    padding-right: 1%;
+    color: #22A39F;
+}
+
+.soft-list {
+    background-color: #E0EBE8;  
+    border-radius: 10px
+}
+
+.soft-column {
+    list-style: none;
+    width: 100%;
+    text-align: center;
+}
+
+.soft-row {
+    text-align: center;
+    
+}
+
+/* Footer Section */
+
+#footer {
+    background-color: #c5ded7;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #c5ded7;
+    margin: 0 auto;
+}
+
+.contact-links {
+    font-family: EB Garamond, Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    font-weight: 600;
+    display: flex;
+    justify-content: space-between;
+    gap: 50px;    
+}
+
+.footer-link {
+    color: #45b29a;
+    text-decoration: none;
+    transition: color 0.5s; 
+}
+
