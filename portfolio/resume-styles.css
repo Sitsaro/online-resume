@@ -28,6 +28,10 @@ p {
     text-align: left;
 }
 
+.filler {
+    margin-top: 25px;
+}
+
 @media (min-width:1070px) and (max-width:1200px){
     .container-fluid {
         padding: 3% 15%;
@@ -85,6 +89,13 @@ p {
     text-align: left;
 }
 
+#experience,
+#abilities,
+#courses {
+    background-color:#F3EFE0;
+    text-align: center;
+}
+
 /* Introduction */
 
 #name {
@@ -136,19 +147,8 @@ p {
     padding: 0 0 4% 3%;
 }
 
-/* Experience Section */
-
-#experience {
-    background-color:#F3EFE0;
-    text-align: center;
-}
-
 /* Abilities Section */
 
-#abilities {
-    background-color: white;
-    text-align: center;
-}
 .no-bullets {
     list-style: none;
     padding-bottom: 5%;
@@ -175,6 +175,35 @@ p {
     text-align: center;
     
 }
+
+/* Courses Section */
+
+#courses {
+    margin: 0;
+}
+
+.colored-section {
+    background-color: #d3ede8;
+}
+
+.gallery {
+    text-align: center;
+}
+
+.gallery img {
+    width: 270px;
+    padding: 5px;
+    transition: 1s;
+}
+
+.gallery img:hover {
+    transform: scale(1.1)
+}
+
+.scroll-button {
+    color: black;
+}
+
 
 /* Footer Section */
 
